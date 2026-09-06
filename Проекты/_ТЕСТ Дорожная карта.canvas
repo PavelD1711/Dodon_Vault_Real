@@ -99,6 +99,16 @@
       "width": 300,
       "height": 120,
       "color": "1"
+    },
+    {
+      "id": "gantt",
+      "type": "text",
+      "text": "## 📆 Timeline\n\n```mermaid\ngantt\n    title Сайт Инкомтранс v2\n    dateFormat  YYYY-MM-DD\n    axisFormat  %d.%m\n    todayMarker off\n\n    section Параллельно\n    KR1 Фирстиль       :kr1, 2026-09-01, 15d\n    KR2 Контент        :kr2, 2026-09-10, 20d\n\n    section Развилка\n    Решение (гейт)     :milestone, gate, 2026-10-05, 0d\n\n    section Последовательно\n    KR3 Дизайн         :kr3, after gate, 15d\n    KR4 Разработка     :kr4, after kr3, 26d\n    KR5 Запуск + SEO   :kr5, after kr4, 15d\n\n    section События\n    Совет директоров   :milestone, ev1, 2026-10-15, 0d\n    ЖД-съезд СПб       :milestone, ev2, 2026-11-20, 0d\n\n    section 🎯 ЦЕЛЬ\n    Запуск сайта       :milestone, crit, goal, 2026-11-30, 0d\n```",
+      "x": -900,
+      "y": 550,
+      "width": 3240,
+      "height": 500,
+      "color": "2"
     }
   ],
   "edges": [
