@@ -4,10 +4,10 @@ projectId: "p_site_it_2026"
 parentId: null
 id: "t_kr2_content"
 title: "KR2: Контент собран"
-type: "task"
+type: "milestone"
 status: "todo"
 priority: "high"
-start: "2026-09-10"
+start: ""
 due: "2026-09-30"
 progress: 0
 assignees:

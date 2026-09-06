@@ -4,10 +4,10 @@ projectId: "p_site_it_2026"
 parentId: null
 id: "t_kr1_firstyle"
 title: "KR1: Фирстиль утверждён"
-type: "task"
+type: "milestone"
 status: "todo"
 priority: "high"
-start: "2026-09-01"
+start: ""
 due: "2026-09-15"
 progress: 0
 assignees:

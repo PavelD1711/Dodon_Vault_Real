@@ -4,11 +4,11 @@ projectId: "[[Сайт Инкомтранс v2|Сайт Инкомтранс v2]
 parentId:
 id: "t_kr4_dev"
 title: "KR4: Разработка"
-type: "task"
+type: "milestone"
 status: "todo"
 priority: "high"
-start: "2026-10-21"
-due: "2026-11-16"
+start: ""
+due: "2026-11-15"
 progress: 0
 assignees: ["Разработчик"]
 tags: ["KR", "dev"]

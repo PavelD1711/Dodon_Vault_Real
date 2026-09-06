@@ -4,11 +4,11 @@ projectId: "[[Сайт Инкомтранс v2|Сайт Инкомтранс v2]
 parentId:
 id: "t_kr5_launch"
 title: "KR5: Запуск + SEO"
-type: "task"
+type: "milestone"
 status: "todo"
 priority: "high"
-start: "2026-11-17"
-due: "2026-12-02"
+start: ""
+due: "2026-11-30"
 progress: 0
 assignees: ["Павел", "SEO-специалист"]
 tags: ["KR", "launch"]
