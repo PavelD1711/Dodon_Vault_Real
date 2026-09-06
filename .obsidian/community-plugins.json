@@ -9,5 +9,6 @@
   "templater-obsidian",
   "callout-manager",
   "obsidian-banners",
-  "obsidian-git"
+  "obsidian-git",
+  "project-manager"
 ]
