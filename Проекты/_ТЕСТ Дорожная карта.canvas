@@ -1,222 +1,42 @@
 {
-  "nodes": [
-    {
-      "id": "goal",
-      "type": "text",
-      "text": "# 🎯 ЦЕЛЬ\n\n**Запустить сайт и фирстиль Инкомтранс v2**\n\n📅 Дедлайн: 30.11.2026\n\n---\n\n*Готово когда:*\nСайт в проде, все страницы на финальном фирстиле, SEO ≥ 80/100, трафик ≥ 500/мес",
-      "x": 2000,
-      "y": -100,
-      "width": 340,
-      "height": 320,
-      "color": "4"
-    },
-    {
-      "id": "kr1",
-      "type": "text",
-      "text": "# 🔑 KR1: Фирстиль\n\n📅 До: 15.09.2026\n👤 Павел + дизайнер\n\n---\n\n**Что делаем:**\n- Логотип v2\n- Цветовая палитра\n- Brand book PDF\n\n**Готово когда:**\nBrand book подписан",
-      "x": -900,
-      "y": -400,
-      "width": 300,
-      "height": 260,
-      "color": "6"
-    },
-    {
-      "id": "kr2",
-      "type": "text",
-      "text": "# 🔑 KR2: Контент\n\n📅 До: 30.09.2026\n👤 Павел + копирайтер\n\n---\n\n**Что делаем:**\n- Тексты 8 страниц\n- Фото, кейсы\n- Юр. документы\n\n**Готово когда:**\nВсё согласовано в Google Docs",
-      "x": -900,
-      "y": 200,
-      "width": 300,
-      "height": 260,
-      "color": "6"
-    },
-    {
-      "id": "kr3",
-      "type": "text",
-      "text": "# 🔑 KR3: Дизайн-макеты\n\n📅 До: 20.10.2026\n👤 Дизайнер\n\n---\n\n**Что делаем:**\n- Figma 8 страниц\n- Desktop + Mobile\n- Прототип\n\n**Готово когда:**\nFigma принята Павлом",
-      "x": 200,
-      "y": -100,
-      "width": 300,
-      "height": 260,
-      "color": "6"
-    },
-    {
-      "id": "kr4",
-      "type": "text",
-      "text": "# 🔑 KR4: Разработка\n\n📅 До: 15.11.2026\n👤 Разработчик\n\n---\n\n**Что делаем:**\n- Вёрстка + CMS\n- Формы\n- Интеграция amoCRM\n\n**Готово когда:**\nСайт на staging",
-      "x": 1200,
-      "y": -100,
-      "width": 300,
-      "height": 260,
-      "color": "6"
-    },
-    {
-      "id": "gate1",
-      "type": "text",
-      "text": "# 🔀 РАЗВИЛКА\n\n**Готовим сами или отдаём агентству?**\n\n📅 Решение: 05.10.2026\n\n---\n\n*Критерий:*\n- Если бюджет ≥ 500к → агентство\n- Иначе → своими силами",
-      "x": -350,
-      "y": -100,
-      "width": 260,
-      "height": 260,
-      "color": "3"
-    },
-    {
-      "id": "event1",
-      "type": "text",
-      "text": "📌 **Совет директоров**\n\n15.10.2026\nПрезентация макетов, утверждение бюджета",
-      "x": 200,
-      "y": -450,
-      "width": 300,
-      "height": 120,
-      "color": "5"
-    },
-    {
-      "id": "event2",
-      "type": "text",
-      "text": "📌 **ЖД-съезд в СПб**\n\n20.11.2026\nАнонс запуска на отраслевом мероприятии",
-      "x": 1200,
-      "y": -450,
-      "width": 300,
-      "height": 120,
-      "color": "5"
-    },
-    {
-      "id": "risk1",
-      "type": "text",
-      "text": "⚠️ **Риск:**\nДизайнер уйдёт в отпуск в октябре\n\n*Митигация:* найти backup к 25.09",
-      "x": 200,
-      "y": 250,
-      "width": 300,
-      "height": 120,
-      "color": "1"
-    },
-    {
-      "id": "risk2",
-      "type": "text",
-      "text": "⚠️ **Риск:**\namoCRM API может отвалиться (был кейс 06.05)\n\n*Митигация:* заготовить fallback-форму",
-      "x": 1200,
-      "y": 250,
-      "width": 300,
-      "height": 120,
-      "color": "1"
-    },
-    {
-      "id": "tl_title",
-      "type": "text",
-      "text": "# 📆 Путь 4: Таймлайн в Canvas — ромбы + стрелки + календарь\n\n_Каждый ромб = веха с датой. Стрелки = зависимости. Все на календарной шкале._",
-      "x": -900,
-      "y": 600,
-      "width": 3240,
-      "height": 100,
-      "color": "2"
-    },
-    {
-      "id": "axis_sep",
-      "type": "text",
-      "text": "**Сен 2026**                                                                                     **Окт 2026**                                                                                        **Ноя 2026**",
-      "x": -900,
-      "y": 730,
-      "width": 3240,
-      "height": 50,
-      "color": "2"
-    },
-    {
-      "id": "tl_kr1",
-      "type": "text",
-      "text": "◆\n**KR1**\nФирстиль\n15.09",
-      "x": -800,
-      "y": 830,
-      "width": 180,
-      "height": 160,
-      "color": "6"
-    },
-    {
-      "id": "tl_kr2",
-      "type": "text",
-      "text": "◆\n**KR2**\nКонтент\n30.09",
-      "x": -100,
-      "y": 830,
-      "width": 180,
-      "height": 160,
-      "color": "6"
-    },
-    {
-      "id": "tl_gate",
-      "type": "text",
-      "text": "◆\n**🔀 Гейт**\nРазвилка\n05.10",
-      "x": 250,
-      "y": 830,
-      "width": 180,
-      "height": 160,
-      "color": "3"
-    },
-    {
-      "id": "tl_ev1",
-      "type": "text",
-      "text": "◆\n**📌 Событие**\nСовет директоров\n15.10",
-      "x": 600,
-      "y": 830,
-      "width": 180,
-      "height": 160,
-      "color": "5"
-    },
-    {
-      "id": "tl_kr3",
-      "type": "text",
-      "text": "◆\n**KR3**\nДизайн\n20.10",
-      "x": 950,
-      "y": 830,
-      "width": 180,
-      "height": 160,
-      "color": "6"
-    },
-    {
-      "id": "tl_kr4",
-      "type": "text",
-      "text": "◆\n**KR4**\nРазработка\n15.11",
-      "x": 1600,
-      "y": 830,
-      "width": 180,
-      "height": 160,
-      "color": "6"
-    },
-    {
-      "id": "tl_ev2",
-      "type": "text",
-      "text": "◆\n**📌 Событие**\nЖД-съезд СПб\n20.11",
-      "x": 1900,
-      "y": 830,
-      "width": 180,
-      "height": 160,
-      "color": "5"
-    },
-    {
-      "id": "tl_goal",
-      "type": "text",
-      "text": "🎯\n**ЦЕЛЬ**\nЗапуск сайта\n30.11",
-      "x": 2200,
-      "y": 830,
-      "width": 180,
-      "height": 160,
-      "color": "4"
-    }
-  ],
-  "edges": [
-    { "id": "e1", "fromNode": "kr1", "fromSide": "right", "toNode": "gate1", "toSide": "left" },
-    { "id": "e2", "fromNode": "kr2", "fromSide": "right", "toNode": "gate1", "toSide": "left" },
-    { "id": "e3", "fromNode": "gate1", "fromSide": "right", "toNode": "kr3", "toSide": "left" },
-    { "id": "e4", "fromNode": "kr3", "fromSide": "right", "toNode": "kr4", "toSide": "left" },
-    { "id": "e5", "fromNode": "kr4", "fromSide": "right", "toNode": "goal", "toSide": "left" },
-    { "id": "e6", "fromNode": "event1", "fromSide": "bottom", "toNode": "kr3", "toSide": "top", "color": "5" },
-    { "id": "e7", "fromNode": "event2", "fromSide": "bottom", "toNode": "kr4", "toSide": "top", "color": "5" },
-    { "id": "e8", "fromNode": "risk1", "fromSide": "top", "toNode": "kr3", "toSide": "bottom", "color": "1" },
-    { "id": "e9", "fromNode": "risk2", "fromSide": "top", "toNode": "kr4", "toSide": "bottom", "color": "1" },
-    { "id": "tl_e1", "fromNode": "tl_kr1", "fromSide": "right", "toNode": "tl_gate", "toSide": "left" },
-    { "id": "tl_e2", "fromNode": "tl_kr2", "fromSide": "right", "toNode": "tl_gate", "toSide": "left" },
-    { "id": "tl_e3", "fromNode": "tl_gate", "fromSide": "right", "toNode": "tl_kr3", "toSide": "left" },
-    { "id": "tl_e4", "fromNode": "tl_kr3", "fromSide": "right", "toNode": "tl_kr4", "toSide": "left" },
-    { "id": "tl_e5", "fromNode": "tl_kr4", "fromSide": "right", "toNode": "tl_goal", "toSide": "left" },
-    { "id": "tl_e6", "fromNode": "tl_ev1", "fromSide": "bottom", "toNode": "tl_kr3", "toSide": "top", "color": "5" },
-    { "id": "tl_e7", "fromNode": "tl_ev2", "fromSide": "bottom", "toNode": "tl_goal", "toSide": "top", "color": "5" }
-  ]
+	"nodes":[
+		{"id":"goal","type":"text","text":"# 🎯 ЦЕЛЬ\n\n**Запустить сайт и фирстиль Инкомтранс v2**\n\n📅 Дедлайн: 30.11.2026\n\n---\n\n*Готово когда:*\nСайт в проде, все страницы на финальном фирстиле, SEO ≥ 80/100, трафик ≥ 500/мес","x":2000,"y":-100,"width":340,"height":320,"color":"4"},
+		{"id":"kr1","type":"text","text":"# 🔑 KR1: Фирстиль\n\n📅 До: 15.09.2026\n👤 Павел + дизайнер\n\n---\n\n**Что делаем:**\n- Логотип v2\n- Цветовая палитра\n- Brand book PDF\n\n**Готово когда:**\nBrand book подписан","x":-900,"y":-400,"width":300,"height":260,"color":"6"},
+		{"id":"kr2","type":"text","text":"# 🔑 KR2: Контент\n\n📅 До: 30.09.2026\n👤 Павел + копирайтер\n\n---\n\n**Что делаем:**\n- Тексты 8 страниц\n- Фото, кейсы\n- Юр. документы\n\n**Готово когда:**\nВсё согласовано в Google Docs","x":-900,"y":200,"width":300,"height":260,"color":"6"},
+		{"id":"kr3","type":"text","text":"# 🔑 KR3: Дизайн-макеты\n\n📅 До: 20.10.2026\n👤 Дизайнер\n\n---\n\n**Что делаем:**\n- Figma 8 страниц\n- Desktop + Mobile\n- Прототип\n\n**Готово когда:**\nFigma принята Павлом","x":200,"y":-100,"width":300,"height":260,"color":"6"},
+		{"id":"kr4","type":"text","text":"# 🔑 KR4: Разработка\n\n📅 До: 15.11.2026\n👤 Разработчик\n\n---\n\n**Что делаем:**\n- Вёрстка + CMS\n- Формы\n- Интеграция amoCRM\n\n**Готово когда:**\nСайт на staging","x":1200,"y":-100,"width":300,"height":260,"color":"6"},
+		{"id":"gate1","type":"text","text":"# 🔀 РАЗВИЛКА\n\n**Готовим сами или отдаём агентству?**\n\n📅 Решение: 05.10.2026\n\n---\n\n*Критерий:*\n- Если бюджет ≥ 500к → агентство\n- Иначе → своими силами","x":-350,"y":-100,"width":260,"height":260,"color":"3"},
+		{"id":"event1","type":"text","text":"📌 **Совет директоров**\n\n15.10.2026\nПрезентация макетов, утверждение бюджета","x":200,"y":-450,"width":300,"height":120,"color":"5"},
+		{"id":"event2","type":"text","text":"📌 **ЖД-съезд в СПб**\n\n20.11.2026\nАнонс запуска на отраслевом мероприятии","x":1200,"y":-450,"width":300,"height":120,"color":"5"},
+		{"id":"risk1","type":"text","text":"⚠️ **Риск:**\nДизайнер уйдёт в отпуск в октябре\n\n*Митигация:* найти backup к 25.09","x":200,"y":250,"width":300,"height":120,"color":"1"},
+		{"id":"risk2","type":"text","text":"⚠️ **Риск:**\namoCRM API может отвалиться (был кейс 06.05)\n\n*Митигация:* заготовить fallback-форму","x":1200,"y":250,"width":300,"height":120,"color":"1"},
+		{"id":"tl_title","type":"text","text":"# 📆 Путь 4: Таймлайн в Canvas — ромбы + стрелки + календарь\n\n_Каждый ромб = веха с датой. Стрелки = зависимости. Все на календарной шкале._","x":-900,"y":600,"width":3240,"height":100,"color":"2"},
+		{"id":"axis_sep","type":"text","text":"**Сен 2026**                                                                                     **Окт 2026**                                                                                        **Ноя 2026**","x":-900,"y":730,"width":3240,"height":50,"color":"2"},
+		{"id":"tl_kr1","type":"text","text":"◆\n**KR1**\nФирстиль\n15.09","x":-800,"y":830,"width":180,"height":160,"color":"6"},
+		{"id":"tl_kr2","type":"text","text":"◆\n**KR2**\nКонтент\n30.09","x":-100,"y":830,"width":180,"height":160,"color":"6"},
+		{"id":"tl_gate","type":"text","text":"◆\n**🔀 Гейт**\nРазвилка\n05.10","x":250,"y":830,"width":180,"height":160,"color":"3"},
+		{"id":"tl_ev1","type":"text","text":"◆\n**📌 Событие**\nСовет директоров\n15.10","x":600,"y":830,"width":180,"height":160,"color":"5"},
+		{"id":"tl_kr3","type":"text","text":"◆\n**KR3**\nДизайн\n20.10","x":950,"y":830,"width":180,"height":160,"color":"6"},
+		{"id":"tl_kr4","type":"text","text":"◆\n**KR4**\nРазработка\n15.11","x":1600,"y":830,"width":180,"height":160,"color":"6"},
+		{"id":"tl_ev2","type":"text","text":"◆\n**📌 Событие**\nЖД-съезд СПб\n20.11","x":1900,"y":830,"width":180,"height":160,"color":"5"},
+		{"id":"tl_goal","type":"text","text":"🎯\n**ЦЕЛЬ**\nЗапуск сайта\n30.11","x":2200,"y":830,"width":180,"height":160,"color":"4"}
+	],
+	"edges":[
+		{"id":"e1","fromNode":"kr1","fromSide":"right","toNode":"gate1","toSide":"left"},
+		{"id":"e2","fromNode":"kr2","fromSide":"right","toNode":"gate1","toSide":"left"},
+		{"id":"e3","fromNode":"gate1","fromSide":"right","toNode":"kr3","toSide":"left"},
+		{"id":"e4","fromNode":"kr3","fromSide":"right","toNode":"kr4","toSide":"left"},
+		{"id":"e5","fromNode":"kr4","fromSide":"right","toNode":"goal","toSide":"left"},
+		{"id":"e6","fromNode":"event1","fromSide":"bottom","toNode":"kr3","toSide":"top","color":"5"},
+		{"id":"e7","fromNode":"event2","fromSide":"bottom","toNode":"kr4","toSide":"top","color":"5"},
+		{"id":"e8","fromNode":"risk1","fromSide":"top","toNode":"kr3","toSide":"bottom","color":"1"},
+		{"id":"e9","fromNode":"risk2","fromSide":"top","toNode":"kr4","toSide":"bottom","color":"1"},
+		{"id":"tl_e1","fromNode":"tl_kr1","fromSide":"right","toNode":"tl_gate","toSide":"left"},
+		{"id":"tl_e2","fromNode":"tl_kr2","fromSide":"right","toNode":"tl_gate","toSide":"left"},
+		{"id":"tl_e3","fromNode":"tl_gate","fromSide":"right","toNode":"tl_kr3","toSide":"left"},
+		{"id":"tl_e4","fromNode":"tl_kr3","fromSide":"right","toNode":"tl_kr4","toSide":"left"},
+		{"id":"tl_e5","fromNode":"tl_kr4","fromSide":"right","toNode":"tl_goal","toSide":"left"},
+		{"id":"tl_e6","fromNode":"tl_ev1","fromSide":"bottom","toNode":"tl_kr3","toSide":"top","color":"5"},
+		{"id":"tl_e7","fromNode":"tl_ev2","fromSide":"bottom","toNode":"tl_goal","toSide":"top","color":"5"}
+	]
 }
