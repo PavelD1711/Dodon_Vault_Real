@@ -17,8 +17,8 @@ tags:
   - "decision"
 subtaskIds: []
 dependencies:
-  - "t_kr1_firstyle"
-  - "t_kr2_content"
+  - "[[kr1-firstyle|KR1: Фирстиль утверждён]]"
+  - "[[kr2-content|KR2: Контент собран]]"
 createdAt: "2026-09-06T18:00:00.000Z"
 updatedAt: "2026-09-06T18:00:00.000Z"
 ---

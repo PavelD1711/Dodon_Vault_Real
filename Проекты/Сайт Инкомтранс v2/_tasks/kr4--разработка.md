@@ -13,7 +13,8 @@ progress: 0
 assignees: ["Разработчик"]
 tags: ["KR", "dev"]
 subtaskIds: []
-dependencies: ["[[kr3--дизайн-макеты|KR3: Дизайн-макеты]]"]
+dependencies:
+  - "[[kr3--дизайн-макеты|KR3: Дизайн-макеты]]"
 createdAt: "2026-09-06T18:00:00.000Z"
 updatedAt: "2026-09-06T18:16:47.291Z"
 ---
