@@ -101,13 +101,33 @@
       "color": "1"
     },
     {
-      "id": "gantt",
+      "id": "gantt1",
       "type": "text",
-      "text": "## 📆 Timeline\n\n```mermaid\ngantt\n    title Сайт Инкомтранс v2\n    dateFormat  YYYY-MM-DD\n    axisFormat  %d.%m\n    todayMarker off\n\n    section Параллельно\n    KR1 Фирстиль       :kr1, 2026-09-01, 15d\n    KR2 Контент        :kr2, 2026-09-10, 20d\n\n    section Развилка\n    Решение (гейт)     :milestone, gate, 2026-10-05, 0d\n\n    section Последовательно\n    KR3 Дизайн         :kr3, after gate, 15d\n    KR4 Разработка     :kr4, after kr3, 26d\n    KR5 Запуск + SEO   :kr5, after kr4, 15d\n\n    section События\n    Совет директоров   :milestone, ev1, 2026-10-15, 0d\n    ЖД-съезд СПб       :milestone, ev2, 2026-11-20, 0d\n\n    section 🎯 ЦЕЛЬ\n    Запуск сайта       :milestone, crit, goal, 2026-11-30, 0d\n```",
+      "text": "## 📆 Путь 1: Классический Gantt (KR как полосы + вехи)\n\n```mermaid\ngantt\n    title Сайт Инкомтранс v2\n    dateFormat  YYYY-MM-DD\n    axisFormat  %d.%m\n\n    section Треки\n    KR1 Фирстиль       :kr1, 2026-09-01, 15d\n    KR2 Контент        :kr2, 2026-09-10, 20d\n    KR3 Дизайн         :kr3, after gate1, 15d\n    KR4 Разработка     :kr4, after kr3, 26d\n\n    section Вехи\n    🔀 Развилка        :milestone, gate1, 2026-10-05, 0d\n    📌 Совет директоров :milestone, ev1, 2026-10-15, 0d\n    📌 ЖД-съезд         :milestone, ev2, 2026-11-20, 0d\n    🎯 Запуск           :milestone, crit, goal, 2026-11-30, 0d\n```",
       "x": -900,
       "y": 550,
       "width": 3240,
-      "height": 500,
+      "height": 460,
+      "color": "2"
+    },
+    {
+      "id": "gantt2",
+      "type": "text",
+      "text": "## 💎 Путь 2: Все KR — вехи (ромбики только)\n\n```mermaid\ngantt\n    title Сайт Инкомтранс v2 — вехи\n    dateFormat  YYYY-MM-DD\n    axisFormat  %d.%m\n\n    section KR\n    🔑 KR1 Фирстиль     :milestone, m1, 2026-09-15, 0d\n    🔑 KR2 Контент      :milestone, m2, 2026-09-30, 0d\n    🔀 Развилка         :milestone, m3, 2026-10-05, 0d\n    🔑 KR3 Дизайн       :milestone, m4, 2026-10-20, 0d\n    🔑 KR4 Разработка   :milestone, m5, 2026-11-15, 0d\n\n    section События\n    📌 Совет директоров :milestone, e1, 2026-10-15, 0d\n    📌 ЖД-съезд         :milestone, e2, 2026-11-20, 0d\n\n    section Финал\n    🎯 ЦЕЛЬ             :milestone, crit, goal, 2026-11-30, 0d\n```",
+      "x": -900,
+      "y": 1080,
+      "width": 3240,
+      "height": 440,
+      "color": "2"
+    },
+    {
+      "id": "flow",
+      "type": "text",
+      "text": "## 🔥 Путь 3: FlowChart — ромбы + стрелки зависимостей (без строгого календаря)\n\n```mermaid\nflowchart LR\n    KR1{{🔑 KR1: Фирстиль<br/>15.09.2026}}\n    KR2{{🔑 KR2: Контент<br/>30.09.2026}}\n    GATE{🔀 Развилка<br/>05.10.2026}\n    KR3{{🔑 KR3: Дизайн<br/>20.10.2026}}\n    KR4{{🔑 KR4: Разработка<br/>15.11.2026}}\n    EV1[📌 Совет<br/>15.10]\n    EV2[📌 ЖД-съезд<br/>20.11]\n    GOAL(((🎯 ЦЕЛЬ<br/>30.11.2026)))\n\n    KR1 --> GATE\n    KR2 --> GATE\n    GATE --> KR3\n    KR3 --> KR4\n    KR4 --> GOAL\n    EV1 -.-> KR3\n    EV2 -.-> KR4\n\n    style KR1 fill:#4ade80,stroke:#166534\n    style KR2 fill:#4ade80,stroke:#166534\n    style KR3 fill:#4ade80,stroke:#166534\n    style KR4 fill:#4ade80,stroke:#166534\n    style GATE fill:#fbbf24,stroke:#78350f\n    style EV1 fill:#c4b5fd,stroke:#5b21b6\n    style EV2 fill:#c4b5fd,stroke:#5b21b6\n    style GOAL fill:#60a5fa,stroke:#1e3a8a,stroke-width:3px\n```",
+      "x": -900,
+      "y": 1590,
+      "width": 3240,
+      "height": 620,
       "color": "2"
     }
   ],
