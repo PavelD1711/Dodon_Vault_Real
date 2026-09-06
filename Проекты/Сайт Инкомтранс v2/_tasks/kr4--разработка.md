@@ -1,25 +1,21 @@
 ---
 pm-task: true
-projectId: "p_site_it_2026"
-parentId: null
+projectId: "[[Сайт Инкомтранс v2|Сайт Инкомтранс v2]]"
+parentId:
 id: "t_kr4_dev"
 title: "KR4: Разработка"
 type: "task"
 status: "todo"
 priority: "high"
-start: "2026-10-20"
-due: "2026-11-15"
+start: "2026-10-21"
+due: "2026-11-16"
 progress: 0
-assignees:
-  - "Разработчик"
-tags:
-  - "KR"
-  - "dev"
+assignees: ["Разработчик"]
+tags: ["KR", "dev"]
 subtaskIds: []
-dependencies:
-  - "t_kr3_design"
+dependencies: ["[[kr3--дизайн-макеты|KR3: Дизайн-макеты]]"]
 createdAt: "2026-09-06T18:00:00.000Z"
-updatedAt: "2026-09-06T18:00:00.000Z"
+updatedAt: "2026-09-06T18:16:47.291Z"
 ---
 
 **Что делаем:**

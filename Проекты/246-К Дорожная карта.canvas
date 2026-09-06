@@ -1,71 +1,17 @@
 {
-  "nodes": [
-    {
-      "id": "context",
-      "type": "file",
-      "file": "Проекты/246-К/Контекст.md",
-      "x": 300,
-      "y": -300,
-      "width": 380,
-      "height": 300,
-      "color": "1"
-    },
-    {
-      "id": "step1",
-      "type": "file",
-      "file": "Проекты/246-К/Шаг 1 - Емкость рынка.md",
-      "x": -220,
-      "y": -300,
-      "width": 380,
-      "height": 400,
-      "color": "4"
-    },
-    {
-      "id": "decision1",
-      "type": "file",
-      "file": "Проекты/246-К/Развилка.md",
-      "x": -220,
-      "y": 150,
-      "width": 380,
-      "height": 220,
-      "color": "3"
-    },
-    {
-      "id": "step3a",
-      "type": "file",
-      "file": "Проекты/246-К/Шаг 3а - Тест Ольги и Цимермана.md",
-      "x": -700,
-      "y": 450,
-      "width": 380,
-      "height": 400,
-      "color": "5"
-    },
-    {
-      "id": "step3b",
-      "type": "file",
-      "file": "Проекты/246-К/Шаг 3б - Удержание доли.md",
-      "x": 220,
-      "y": 450,
-      "width": 380,
-      "height": 300,
-      "color": "5"
-    },
-    {
-      "id": "step4a",
-      "type": "file",
-      "file": "Проекты/246-К/Шаг 4а - Решение по итогам месяца.md",
-      "x": -700,
-      "y": 950,
-      "width": 380,
-      "height": 320,
-      "color": "6"
-    }
-  ],
-  "edges": [
-    {"id": "e1", "fromNode": "context", "fromSide": "left", "toNode": "step1", "toSide": "right"},
-    {"id": "e2", "fromNode": "step1", "fromSide": "bottom", "toNode": "decision1", "toSide": "top"},
-    {"id": "e3", "fromNode": "decision1", "fromSide": "bottom", "toNode": "step3a", "toSide": "top", "label": "рост есть"},
-    {"id": "e4", "fromNode": "decision1", "fromSide": "bottom", "toNode": "step3b", "toSide": "top", "label": "рынок насыщен"},
-    {"id": "e5", "fromNode": "step3a", "fromSide": "bottom", "toNode": "step4a", "toSide": "top"}
-  ]
+	"nodes":[
+		{"id":"context","type":"file","file":"Проекты/246-К/Контекст.md","x":300,"y":-300,"width":380,"height":300,"color":"1"},
+		{"id":"step1","type":"file","file":"Проекты/246-К/Шаг 1 - Емкость рынка.md","x":-220,"y":-300,"width":380,"height":400,"color":"4"},
+		{"id":"decision1","type":"file","file":"Проекты/246-К/Развилка.md","x":-220,"y":150,"width":380,"height":220,"color":"3"},
+		{"id":"step3a","type":"file","file":"Проекты/246-К/Шаг 3а - Тест Ольги и Цимермана.md","x":-700,"y":450,"width":380,"height":400,"color":"5"},
+		{"id":"step3b","type":"file","file":"Проекты/246-К/Шаг 3б - Удержание доли.md","x":220,"y":450,"width":380,"height":300,"color":"5"},
+		{"id":"step4a","type":"file","file":"Проекты/246-К/Шаг 4а - Решение по итогам месяца.md","x":-700,"y":950,"width":380,"height":320,"color":"6"}
+	],
+	"edges":[
+		{"id":"e1","fromNode":"context","fromSide":"left","toNode":"step1","toSide":"right"},
+		{"id":"e2","fromNode":"step1","fromSide":"bottom","toNode":"decision1","toSide":"top"},
+		{"id":"e3","fromNode":"decision1","fromSide":"bottom","toNode":"step3a","toSide":"top","label":"рост есть"},
+		{"id":"e4","fromNode":"decision1","fromSide":"bottom","toNode":"step3b","toSide":"top","label":"рынок насыщен"},
+		{"id":"e5","fromNode":"step3a","fromSide":"bottom","toNode":"step4a","toSide":"top"}
+	]
 }
