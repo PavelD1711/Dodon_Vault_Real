@@ -52,9 +52,21 @@ related_docs:
 - Личные мысли Павла → Рефлексия
 - Найм / адаптация сотрудников → своя рабочая площадка
 
+## Репозиторий GitHub (⚡ обновляем)
+
+- **URL:** https://github.com/kuznetsov-kdv/CargoLogic
+- **Локальный клон Pablo:** `/home/work/.openclaw/workspace/projects/cargologic/CargoLogic/`
+- **Способ доступа:** SSH-ключ `~/.ssh/github_dodon_vault` (аккаунт `PavelD1711`, принят в collaborators 07.09.2026)
+- **Ветки:** `main` (активная), `codex/support-interface`
+- **Команда для pull:** `cd /home/work/.openclaw/workspace/projects/cargologic/CargoLogic && git pull` (SSH-команда привязана через `core.sshCommand`)
+- **Активность:** 691 коммит за последние 30 дней (Кузнецов)
+- **Стек:** .NET / C# (`CargoLogic.CentralServer`, `CargoLogic.Cli`, `CargoLogic.Domain`, `CargoLogic.Persistence.PostgreSql`)
+- **Модели:** 13 YAML в `models/cargologic/` (core, planning, analytics, integration, modularity, configuration, platform-operations, shared-platform, distance-data, calculation-data, etran, etran-stub, reference-data)
+- **Спеки:** ~80 markdown-файлов в `docs/superpowers/specs/`
+
 ## Ссылки на артефакты
 
-- **Google Doc v4 ФИНАЛ (13 разделов):** https://docs.google.com/document/d/1MNoHiLmXMY8UrZrmz88kLeP1xEPT-IMekdpuk2qjGls/edit
+- **Google Doc v4 ФИНАЛ бизнес-модели (13 разделов):** https://docs.google.com/document/d/1MNoHiLmXMY8UrZrmz88kLeP1xEPT-IMekdpuk2qjGls/edit
   Содержит: портрет клиента, 11-шаговый цикл, ядро (временные метки + атрибуция + док-база), 3 варианта бизнес-модели (ARR 60-250 млн ₽), конкуренты, пересмотр сроков
 - **Оценка проекта в терминах Антара (03.09.2026):** 57-78 ЕР, 1000-1400 ч, 4,0-7,0 млн ₽ (см. `memory/2026-09-03.md`)
 - **Обзор Trucker.ru Rail Cargo:** `memory/2026-04-07.md` (референс конкурента)
@@ -109,4 +121,5 @@ related_docs:
 
 ## История
 
-- **2026-09-07** — создан README проекта CargoLogic после получения chat_id группы от Павла (`-5180864406`). Первоначально Pablo ошибочно связал этот chat_id с проектом «Бизнес-ассистент» — исправлено уточнением Павла в голосовом.
+- **2026-09-07 (12:52)** — создан README проекта CargoLogic после получения chat_id группы от Павла (`-5180864406`). Первоначально Pablo ошибочно связал этот chat_id с проектом «Бизнес-ассистент» — исправлено уточнением Павла в голосовом.
+- **2026-09-07 (16:39)** — Павел добавил аккаунт `PavelD1711` (с ключом Pablo) в collaborators репо `kuznetsov-kdv/CargoLogic`. Клон создан в `projects/cargologic/CargoLogic/`, настроен SSH-ключ. Старый снапшот (`CargoLogic-main`, 06.08.2026) сохранён. Активность в main: 691 коммит за 30 дней, последний `b661210` «Add ETRAN stub fallback for organization startup».
