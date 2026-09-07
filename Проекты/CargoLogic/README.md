@@ -19,6 +19,13 @@ related_docs:
 
 # Проект CargoLogic / iTrain
 
+> **👋 Pablo, если ты открыл этот файл в сессии группы CargoLogic (`-5180864406`) в первый раз:**
+> 1. `memory_search "CargoLogic репозиторий"` — доступ, ключи, история
+> 2. Ключевые файлы памяти: `memory/2026-09-07.md`, `memory/2026-09-03.md`, `memory/2026-08-18.md`, `memory/2026-08-13.md`, `memory/2026-04-07.md`
+> 3. **Репо клонирован:** `/home/work/.openclaw/workspace/projects/cargologic/CargoLogic/` — SSH-ключ Pablo привязан локально (`core.sshCommand`), `git pull` работает без флагов
+> 4. **Перед работой с vault:** `cd /home/work/.openclaw/workspace/vaults/dodon && git pull` — другая сессия Pablo могла уже коммитнуть
+> 5. **Перед работой с репо:** `cd projects/cargologic/CargoLogic && git pull` — Дмитрий коммитит каждый день
+
 ## О группе Telegram
 
 - **ID:** `-5180864406`
