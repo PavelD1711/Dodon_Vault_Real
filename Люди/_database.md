@@ -70,16 +70,31 @@ views:
     sorts:
       - columnId: database-plugin
         direction: desc
+      - columnId: status
+        direction: desc
+      - columnId: name
+        direction: asc
     hiddenColumns: []
     columnWidths: {}
-    pinnedColumnId:
+    pinnedColumnId: database-plugin
     rowHeight: compact
     activePills:
-      - id: be61add1-fc9c-486d-adaf-bbff26d01760
-        columnId: tags
+      - id: 363e6daa-36f8-4330-95fa-229317f81c79
+        columnId: status
         operator: is
         value: ""
         conjunction: and
+    columnOrder:
+      - role
+      - database-plugin
+      - name
+      - start_date
+      - end_date
+      - status
+      - manager
+      - format
+      - tags
+    wrapText: false
   - id: 3c16c3d5-73ea-40af-9cba-cb91757d0795
     type: timeline
     filters: []
