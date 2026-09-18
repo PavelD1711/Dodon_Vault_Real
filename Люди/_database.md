@@ -70,6 +70,8 @@ views:
     sorts:
       - columnId: role
         direction: desc
+      - columnId: format
+        direction: desc
     hiddenColumns: []
     columnWidths: {}
     pinnedColumnId: database-plugin
@@ -86,6 +88,7 @@ views:
       - format
       - tags
     wrapText: false
+    includeSubfolders: false
   - id: 3c16c3d5-73ea-40af-9cba-cb91757d0795
     type: timeline
     filters: []
