@@ -68,22 +68,13 @@ views:
     type: table
     filters: []
     sorts:
-      - columnId: database-plugin
+      - columnId: role
         direction: desc
-      - columnId: status
-        direction: desc
-      - columnId: name
-        direction: asc
     hiddenColumns: []
     columnWidths: {}
     pinnedColumnId: database-plugin
     rowHeight: compact
-    activePills:
-      - id: 363e6daa-36f8-4330-95fa-229317f81c79
-        columnId: status
-        operator: is
-        value: ""
-        conjunction: and
+    activePills: []
     columnOrder:
       - role
       - database-plugin
