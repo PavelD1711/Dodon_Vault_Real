@@ -18,9 +18,6 @@ columns:
     skipPersist: false
     isDragDisabled: false
     csvCandidate: true
-    position: 0
-    isHidden: false
-    sortIndex: -1
     config:
       enable_media_view: true
       link_alias_enabled: true
@@ -44,9 +41,9 @@ config:
   show_metadata_inlinks: false
   show_metadata_outlinks: false
   show_metadata_tags: false
-  source_data: current_folder
+  source_data: tag
   source_form_result: ДК-5
-  source_destination_path: /
+  source_destination_path: Мой центр управления/Планирование
   row_templates_folder: /
   current_row_template: 
   pagination_size: 10

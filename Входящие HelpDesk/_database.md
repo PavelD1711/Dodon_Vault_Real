@@ -67,6 +67,16 @@ views:
     sorts: []
     hiddenColumns: []
     columnWidths: {}
+  - id: e9ebea87-1cf4-46a6-adfc-aa24cc9d9043
+    type: table
+    filters: []
+    sorts: []
+    hiddenColumns: []
+    columnWidths: {}
+    pinnedColumnId:
+    name: Table
+    rowHeight: compact
+    wrapText: false
 ---
 
 > [!tip] Notion Bases
