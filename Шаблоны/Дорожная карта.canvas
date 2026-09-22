@@ -1,108 +1,17 @@
 {
-  "nodes": [
-    {
-      "id": "node-legend",
-      "type": "text",
-      "text": "## Легенда\n🎯 Цель\n📦 Проект\n🔑 Ключевой результат\n⚠️ Риск\n📅 Событие/Веха\n💡 Идея\n🔴 Проблема\n😨 Страх\n\n**Стрелки = связи между сущностями**\nКаждая карточка = заметка из vault",
-      "x": -600,
-      "y": -200,
-      "width": 280,
-      "height": 320,
-      "color": "6"
-    },
-    {
-      "id": "node-goal-1",
-      "type": "text",
-      "text": "🎯 Цель 1\n\n_Замени на [[ссылку на заметку]]_",
-      "x": -100,
-      "y": -300,
-      "width": 260,
-      "height": 120,
-      "color": "3"
-    },
-    {
-      "id": "node-goal-2",
-      "type": "text",
-      "text": "🎯 Цель 2\n\n_Замени на [[ссылку на заметку]]_",
-      "x": -100,
-      "y": -100,
-      "width": 260,
-      "height": 120,
-      "color": "3"
-    },
-    {
-      "id": "node-project-1",
-      "type": "text",
-      "text": "📦 Проект 1\n\n_Замени на [[ссылку на заметку]]_",
-      "x": 280,
-      "y": -300,
-      "width": 260,
-      "height": 120,
-      "color": "4"
-    },
-    {
-      "id": "node-kr-1",
-      "type": "text",
-      "text": "🔑 КР 1\n\n_Замени на [[ссылку на заметку]]_",
-      "x": 640,
-      "y": -300,
-      "width": 260,
-      "height": 120,
-      "color": "5"
-    },
-    {
-      "id": "node-risk-1",
-      "type": "text",
-      "text": "⚠️ Риск 1\n\n_Замени на [[ссылку на заметку]]_",
-      "x": 280,
-      "y": -100,
-      "width": 260,
-      "height": 120,
-      "color": "1"
-    },
-    {
-      "id": "node-event-1",
-      "type": "text",
-      "text": "📅 Веха 1\n\n_Замени на [[ссылку на заметку]]_",
-      "x": 640,
-      "y": -100,
-      "width": 260,
-      "height": 120,
-      "color": "2"
-    }
-  ],
-  "edges": [
-    {
-      "id": "edge-goal1-project1",
-      "fromNode": "node-goal-1",
-      "fromSide": "right",
-      "toNode": "node-project-1",
-      "toSide": "left",
-      "label": "реализует"
-    },
-    {
-      "id": "edge-project1-kr1",
-      "fromNode": "node-project-1",
-      "fromSide": "right",
-      "toNode": "node-kr-1",
-      "toSide": "left",
-      "label": "даёт"
-    },
-    {
-      "id": "edge-goal2-risk1",
-      "fromNode": "node-goal-2",
-      "fromSide": "right",
-      "toNode": "node-risk-1",
-      "toSide": "left",
-      "label": "несёт"
-    },
-    {
-      "id": "edge-risk1-event1",
-      "fromNode": "node-risk-1",
-      "fromSide": "right",
-      "toNode": "node-event-1",
-      "toSide": "left",
-      "label": "триггер"
-    }
-  ]
+	"nodes":[
+		{"id":"node-legend","type":"text","text":"## Легенда\n🎯 Цель\n📦 Проект\n🔑 Ключевой результат\n⚠️ Риск\n📅 Событие/Веха\n💡 Идея\n🔴 Проблема\n😨 Страх\n\n**Стрелки = связи между сущностями**\nКаждая карточка = заметка из vault","x":-600,"y":-200,"width":280,"height":320,"color":"6"},
+		{"id":"node-goal-1","type":"text","text":"🎯 Цель 1\n\n_Замени на [[ссылку на заметку]]_","x":-100,"y":-300,"width":260,"height":120,"color":"3"},
+		{"id":"node-goal-2","type":"text","text":"🎯 Цель 2\n\n_Замени на [[ссылку на заметку]]_","x":-100,"y":-100,"width":260,"height":120,"color":"3"},
+		{"id":"node-project-1","type":"text","text":"📦 Проект 1\n\n_Замени на [[ссылку на заметку]]_","x":280,"y":-300,"width":260,"height":120,"color":"4"},
+		{"id":"node-kr-1","type":"text","text":"🔑 КР 1\n\n_Замени на [[ссылку на заметку]]_","x":640,"y":-300,"width":260,"height":120,"color":"5"},
+		{"id":"node-risk-1","type":"text","text":"⚠️ Риск 1\n\n_Замени на [[ссылку на заметку]]_","x":280,"y":-100,"width":260,"height":120,"color":"1"},
+		{"id":"node-event-1","type":"text","text":"📅 Веха 1\n\n_Замени на [[ссылку на заметку]]_","x":640,"y":-100,"width":260,"height":120,"color":"2"}
+	],
+	"edges":[
+		{"id":"edge-goal1-project1","fromNode":"node-goal-1","fromSide":"right","toNode":"node-project-1","toSide":"left","label":"реализует"},
+		{"id":"edge-project1-kr1","fromNode":"node-project-1","fromSide":"right","toNode":"node-kr-1","toSide":"left","label":"даёт"},
+		{"id":"edge-goal2-risk1","fromNode":"node-goal-2","fromSide":"right","toNode":"node-risk-1","toSide":"left","label":"несёт"},
+		{"id":"edge-risk1-event1","fromNode":"node-risk-1","fromSide":"right","toNode":"node-event-1","toSide":"left","label":"триггер"}
+	]
 }
