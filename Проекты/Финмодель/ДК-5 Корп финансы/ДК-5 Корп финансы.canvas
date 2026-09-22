@@ -1,0 +1,29 @@
+{
+  "nodes": [
+    {"id":"title","type":"text","text":"# 🗺 ДК-5 — Корпоративные финансы\n2026","x":-120,"y":-600,"width":240,"height":80,"color":"6"},
+
+    {"id":"goal1","type":"file","file":"Проекты/Финмодель/ДК-5 Корп финансы/Цели/Цель-1 — Капитал защищён.md","x":-800,"y":-400,"width":300,"height":60,"color":"3"},
+    {"id":"goal2","type":"file","file":"Проекты/Финмодель/ДК-5 Корп финансы/Цели/Цель-2 — Капитал работает с целевой доходностью.md","x":-800,"y":-300,"width":300,"height":60,"color":"3"},
+    {"id":"goal3","type":"file","file":"Проекты/Финмодель/ДК-5 Корп финансы/Цели/Цель-3 — Система финансового планирования работает.md","x":-800,"y":-200,"width":300,"height":60,"color":"3"},
+    {"id":"goal4","type":"file","file":"Проекты/Финмодель/ДК-5 Корп финансы/Цели/Цель-4 — Финансовый учёт и отчётность настроены.md","x":-800,"y":-100,"width":300,"height":60,"color":"3"},
+    {"id":"goal5","type":"file","file":"Проекты/Финмодель/ДК-5 Корп финансы/Цели/Цель-5 — Информация для УУ собирается точно и вовремя.md","x":-800,"y":0,"width":300,"height":60,"color":"3"},
+    {"id":"goal6","type":"file","file":"Проекты/Финмодель/ДК-5 Корп финансы/Цели/Цель-6 — Процессы ФО настроены.md","x":-800,"y":100,"width":300,"height":60,"color":"3"},
+
+    {"id":"kr1","type":"file","file":"Проекты/Финмодель/ДК-5 Корп финансы/КР/КР-1 — Учёт Continental Bridge настроен.md","x":200,"y":-450,"width":300,"height":60,"color":"5"},
+    {"id":"kr2","type":"file","file":"Проекты/Финмодель/ДК-5 Корп финансы/КР/КР-2 — Налоговое планирование.md","x":200,"y":-370,"width":300,"height":60,"color":"5"},
+    {"id":"kr3","type":"file","file":"Проекты/Финмодель/ДК-5 Корп финансы/КР/КР-3 — Разработаны формы отчётности ДДС, ОПИУ, Баланс.md","x":200,"y":-290,"width":300,"height":60,"color":"5"},
+    {"id":"kr4","type":"file","file":"Проекты/Финмодель/ДК-5 Корп финансы/КР/КР-4 — Нанят руководитель ФО.md","x":200,"y":-210,"width":300,"height":60,"color":"5"},
+    {"id":"kr5","type":"file","file":"Проекты/Финмодель/ДК-5 Корп финансы/КР/КР-5 — БИТ.Финанс запущен.md","x":200,"y":-130,"width":300,"height":60,"color":"5"},
+    {"id":"kr6","type":"file","file":"Проекты/Финмодель/ДК-5 Корп финансы/КР/КР-6 — Бухгалтерский аудит 2025 проведён.md","x":200,"y":-50,"width":300,"height":60,"color":"5"},
+    {"id":"kr7","type":"file","file":"Проекты/Финмодель/ДК-5 Корп финансы/КР/КР-7 — Финансовая модель разобрана и актуализирована.md","x":200,"y":30,"width":300,"height":60,"color":"5"}
+  ],
+  "edges": [
+    {"id":"e-g1-kr2","fromNode":"goal1","fromSide":"right","toNode":"kr2","toSide":"left","label":"КР"},
+    {"id":"e-g1-kr6","fromNode":"goal1","fromSide":"right","toNode":"kr6","toSide":"left","label":"КР"},
+    {"id":"e-g3-kr5","fromNode":"goal3","fromSide":"right","toNode":"kr5","toSide":"left","label":"КР"},
+    {"id":"e-g3-kr7","fromNode":"goal3","fromSide":"right","toNode":"kr7","toSide":"left","label":"КР"},
+    {"id":"e-g4-kr1","fromNode":"goal4","fromSide":"right","toNode":"kr1","toSide":"left","label":"КР"},
+    {"id":"e-g4-kr3","fromNode":"goal4","fromSide":"right","toNode":"kr3","toSide":"left","label":"КР"},
+    {"id":"e-g6-kr4","fromNode":"goal6","fromSide":"right","toNode":"kr4","toSide":"left","label":"КР"}
+  ]
+}
