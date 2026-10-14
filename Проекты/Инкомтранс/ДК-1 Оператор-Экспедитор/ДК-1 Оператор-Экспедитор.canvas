@@ -1,0 +1,105 @@
+{
+  "nodes": [
+    {
+      "id": "dk1",
+      "type": "text",
+      "text": "# 🗺 ДК-1\nОператор-Экспедитор\n2026–2027",
+      "x": 0,
+      "y": 0,
+      "width": 220,
+      "height": 90,
+      "color": "1"
+    },
+    {
+      "id": "sg1",
+      "type": "file",
+      "file": "Проекты/Инкомтранс/ДК-1 Оператор-Экспедитор/Цели/Цель-1 — Павел ≤20ч в неделю на ОБ.md",
+      "x": -420,
+      "y": 200,
+      "width": 340,
+      "height": 80,
+      "color": "4"
+    },
+    {
+      "id": "sg2",
+      "type": "file",
+      "file": "Проекты/Инкомтранс/ДК-1 Оператор-Экспедитор/Цели/Цель-2 — Чистая прибыль ОБ ≥5 млн руб-мес.md",
+      "x": 300,
+      "y": 200,
+      "width": 340,
+      "height": 80,
+      "color": "4"
+    },
+    {
+      "id": "sg3",
+      "type": "text",
+      "text": "🎯 Цель-3\n_не сформулирована_",
+      "x": -60,
+      "y": 200,
+      "width": 240,
+      "height": 80,
+      "color": "6"
+    },
+    {
+      "id": "risk1",
+      "type": "file",
+      "file": "Проекты/Инкомтранс/ДК-1 Оператор-Экспедитор/Риски/Риск-1 — Сезонный провал Экспедитора в январе-феврале.md",
+      "x": 200,
+      "y": 420,
+      "width": 360,
+      "height": 80,
+      "color": "2"
+    },
+    {
+      "id": "risk2",
+      "type": "file",
+      "file": "Проекты/Инкомтранс/ДК-1 Оператор-Экспедитор/Риски/Риск-2 — Отсутствие системных продаж в Экспедиторе.md",
+      "x": 200,
+      "y": 540,
+      "width": 360,
+      "height": 80,
+      "color": "2"
+    },
+    {
+      "id": "idea1",
+      "type": "file",
+      "file": "Проекты/Инкомтранс/ДК-1 Оператор-Экспедитор/Идеи/Идея — R&D как отдельное подразделение.md",
+      "x": -420,
+      "y": 420,
+      "width": 340,
+      "height": 80,
+      "color": "3"
+    },
+    {
+      "id": "kr_placeholder",
+      "type": "text",
+      "text": "🔑 KR\n_добавятся по мере\nформулировки_",
+      "x": -420,
+      "y": 540,
+      "width": 340,
+      "height": 80,
+      "color": "6"
+    },
+    {
+      "id": "projects_placeholder",
+      "type": "text",
+      "text": "🚧 Проекты\n_добавятся по мере\nформулировки_",
+      "x": -100,
+      "y": 660,
+      "width": 320,
+      "height": 80,
+      "color": "6"
+    }
+  ],
+  "edges": [
+    { "id": "e1", "fromNode": "dk1", "fromSide": "left", "toNode": "sg1", "toSide": "top", "label": "содержит" },
+    { "id": "e2", "fromNode": "dk1", "fromSide": "bottom", "toNode": "sg3", "toSide": "top", "label": "содержит" },
+    { "id": "e3", "fromNode": "dk1", "fromSide": "right", "toNode": "sg2", "toSide": "top", "label": "содержит" },
+    { "id": "e4", "fromNode": "risk2", "fromSide": "top", "toNode": "sg2", "toSide": "bottom", "label": "угрожает", "color": "2" },
+    { "id": "e5", "fromNode": "risk1", "fromSide": "left", "toNode": "risk2", "toSide": "right", "label": "усиливает", "color": "2" },
+    { "id": "e6", "fromNode": "risk1", "fromSide": "top", "toNode": "sg2", "toSide": "bottom", "label": "угрожает", "color": "2" },
+    { "id": "e7", "fromNode": "idea1", "fromSide": "bottom", "toNode": "kr_placeholder", "toSide": "top", "label": "породит KR" },
+    { "id": "e8", "fromNode": "kr_placeholder", "fromSide": "bottom", "toNode": "projects_placeholder", "toSide": "top", "label": "упаковываются в" },
+    { "id": "e9", "fromNode": "sg1", "fromSide": "bottom", "toNode": "idea1", "toSide": "top", "label": "связана" }
+  ]
+}
