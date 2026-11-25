@@ -2,5 +2,6 @@
   "promptDelete": false,
   "newFileLocation": "folder",
   "newFileFolderPath": "_Входящие",
-  "propertiesInDocument": "source"
+  "propertiesInDocument": "source",
+  "alwaysUpdateLinks": true
 }
